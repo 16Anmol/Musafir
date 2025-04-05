@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures full-screen height */
+  margin: 0;
+
+  background: #f4e3d3; /* Matches your soft brown theme */
+}
+
+.container {
+  background: #fff8f1;
+  width: 90%;
+  max-width: 400px;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 25px 40px rgba(101, 67, 33, 0.2);
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+form {
+  margin: 10px auto;
+}
+
+.form-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #5e3c1e;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.input-group i {
+  position: absolute;
+  color: #5e3c1e;
+  font-size: 1.5rem;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+}
+
+input {
+  width: 100%;
+  padding: 1rem 1.5rem 1rem 3rem;
+  font-size: 1.5rem;
+  border: none;
+  border-bottom: 2px solid #a1785c;
+  background-color: transparent;
+  outline: none;
+  color: #3a2b1d;
+}
+
+input:focus {
+  border-bottom: 3px solid #8b5c2c;
+}
+
+label {
+  position: absolute;
+  top: -1rem;
+  left: 3rem;
+  font-size: 1.2rem;
+  color: #a1785c;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+input:focus ~ label,
+input:not(:placeholder-shown) ~ label {
+  color: #8b5c2c;
+}
+
+.recover {
+  text-align: right;
+  margin-bottom: 2rem;
+}
+
+.recover a {
+  text-decoration: none;
+  color: #a66c44;
+  font-size: 1.2rem;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 15px 0;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  background: #a66c44;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #5e3c1e;
+}
+
+.or {
+  font-size: 1.3rem;
+  margin: 2rem 0;
+  color: #5e3c1e;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.icons i {
+  color: #a66c44;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 2rem;
+  cursor: pointer;
+  border: 3px solid #f1e3d3;
+  transition: 0.3s;
+}
+
+.icons i:hover {
+  background: #5e3c1e;
+  border-color: #a66c44;
+  color: white;
+}
+
+.links {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #5e3c1e;
+}
+
+.links span {
+  margin-right: 1rem;
+}
+
+#signUpButton {
+  color: #a66c44;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#signUpButton:hover {
+  text-decoration: underline;
+}

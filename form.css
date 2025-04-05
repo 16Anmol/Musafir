@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:#E5E5CB;
+}
+nav{
+    background-color: #1a120bf6;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 60px;
+    width: 115px;
+    background-image: url("Screenshot\ 2024-08-31\ 131448.png");
+    background-size: cover;
+}
+.img_1{
+    position: relative;
+    background-image: url("luca-bravo-nhhFz7ITTFw-unsplash_11zon.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 700px;
+}
+.cover{
+    position: absolute;
+    background-color: black;
+    opacity: 0.70;
+    height: 100%;
+    width: 100%;
+}
+.acc_box{
+    position: relative;
+    height: 600px;
+    width: 400px;
+    border: 1px solid transparent;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    .data{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .data_1{
+            display:flex;
+            flex-direction: column;
+            gap:14px;
+            p{
+                font-size: medium;
+            }
+            input{
+                height: 20px;
+                width: 220px;
+                border: 1px solid white;
+                padding: 7px 60px 7px 6px;
+                border-radius: 5px;
+            }
+            .wrd{
+                font-size: small;
+            }
+        }
+        .btn{
+            height: 40px;
+            width: 220px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid transparent;
+            border-radius: 10px;
+            background-color: #c68918;
+            color: wheat;
+            font-size: medium;
+        }
+        .already{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+            a{
+                text-decoration: none;
+                color: wheat;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+        .btn:hover{
+            background-color: #c68918d0;
+        }
+    }
+
+}
+
+.cover_2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.70;
+}
+
+.divider{
+    height: 15px;
+    width: 100%;
+    background-color: #c68918;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(90deg ,#1a120bf6,#c68918);
+    .conclusion{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 700px;
+        margin:auto;
+        color: white;
+        padding-top: 40px;
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            a{
+                color: wheat;
+                font-size: medium;
+                font-weight: normal;
+                text-decoration: none;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.start{
+    height: 50px;
+    width: 120px;
+    background-color: #c68918;
+    color: wheat;
+    font-size: medium;
+    font-weight: normal;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 5px ;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    .emoji{
+        font-size: larger;
+        height: 27px;
+        width: 27px;
+        background-color: wheat;
+        color: #c68918;
+        border: 1px solid transparent;
+        border-radius: 7px;
+        text-align: center;
+    }
+}
+.start:hover{
+    .start_text{
+        display: none;
+    }
+    .emoji{
+        background-color: rgba(245, 222, 179, 0.826);
+        height: 100%;
+        width: 100%;
+        font-weight: bold;
+        font-size: x-large;
+    }
+}
