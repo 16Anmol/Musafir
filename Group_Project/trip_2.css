@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #1a120bf6;
+}
+nav{
+    background-color: #1a120bf6;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-between;
+    .home{
+        padding: 7px;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        a{
+            color: wheat;
+            font-size: large;
+            font-weight: 500;
+            text-decoration: none;
+        }
+    }
+}
+.logo{
+    height: 60px;
+    width: 115px;
+    background-image: url("pictures/logo/musafir_logo.png");
+    background-size: cover;
+    margin-left: 70px;
+}
+.home:hover{
+    border:1px solid white;
+}
+.side{
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.about{
+    font-size: large;
+    font-weight: 500;
+    color: wheat;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 7px;
+}
+.about:hover{
+    border: 1px solid white;
+}
+.signIn{
+    padding: 7px 10px;
+    background-color:  #c68918;
+    border: 1px solid #c68918 ;
+    border-radius: 2px;
+    color: wheat;
+    font-weight: 600;
+}
+.signIn:hover{
+    background-color: #c68918d0;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    .glass{
+        height: 40px;
+        width: 60px;
+        display: flex;
+        background-color:#c68918;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius:10px ;
+        border: 1px solid transparent;
+    }
+    input{
+        height: 20px;
+        width: 220px;
+        padding: 10px 200px 10px 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: medium;
+        font-weight: 500;
+        border: 1px solid transparent;
+    }
+}
+.main_1{
+    position: relative;
+    height: 500px;
+    background-image: url("pictures/trips/trips_bg/jodhpur_bg.jpg");
+    background-size: cover;
+    background-position: right;
+    .cover{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 0.70;
+    }
+    .heading{
+        position: relative;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 1000px;
+        margin: auto;
+        gap: 20px;
+        .head_1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            h1{
+                font-size: xxx-large;
+            }
+            p{
+                font-size: larger;
+            }
+            button{
+                height: 40px;
+                width: 120px;
+                background-color:#c68918;
+                color: wheat;
+                border: 1px solid transparent;
+                border-radius: 4px;
+                font-weight: bold;
+            }
+            button:hover{
+                background-color:  #c68918d0;
+            }
+        }
+        .pic{
+            height: 250px;
+            width: 900px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            overflow: hidden;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+.divider{
+    height: 15px;
+    width: 100%;
+    background-color: #c68918;
+}
+.main_2{
+    height: 450px;
+    background-color: #1a120bf6;
+    margin-top: 30px;
+    .inc{
+        width: 950px;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        color: wheat;
+        .tell{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            p{
+                font-size: large;
+            }
+        }
+    }
+}
+.main_3{
+    height: 150px;
+    margin-top: 30px;
+    .inc{
+        width: 950px;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        color: wheat;
+        .tell{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            p{
+                font-size: large;
+            }
+        }
+    }
+}
+
+footer{
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(90deg ,#1a120bf6,#c68918);
+    .conclusion{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 700px;
+        margin:auto;
+        color: white;
+        padding-top: 40px;
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            a{
+                color: wheat;
+                font-size: medium;
+                font-weight: normal;
+                text-decoration: none;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.start{
+    height: 50px;
+    width: 120px;
+    background-color: #c68918;
+    color: wheat;
+    font-size: medium;
+    font-weight: normal;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 5px ;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    .emoji{
+        font-size: larger;
+        height: 27px;
+        width: 27px;
+        background-color: wheat;
+        color: #c68918;
+        border: 1px solid transparent;
+        border-radius: 7px;
+        text-align: center;
+    }
+}
+.start:hover{
+    .start_text{
+        display: none;
+    }
+    .emoji{
+        background-color: rgba(245, 222, 179, 0.826);
+        height: 100%;
+        width: 100%;
+        font-weight: bold;
+        font-size: x-large;
+    }
+}
+
+.foot{
+    height: 50px;
+    width: 100%;
+    background-color: #1a120bf6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid wheat;
+    p{
+        color: wheat;
+        font-size: x-small;
+    }
+}

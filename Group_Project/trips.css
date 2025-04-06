@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(222, 190, 131);
+}
+nav{
+    background-color: #1a120bf6;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 30px;
+    .home{
+        padding: 7px;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        a{
+            color: wheat;
+            font-size: large;
+            font-weight: 500;
+            text-decoration: none;
+        }
+    }
+}
+.logo{
+    height: 60px;
+    width: 115px;
+    background-image: url("pictures/logo/musafir_logo.png");
+    background-size: cover;
+    margin-left: 70px;
+}
+.home:hover{
+    border:1px solid white;
+}
+.side{
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.about{
+    font-size: large;
+    font-weight: 500;
+    color: wheat;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 7px;
+}
+.about:hover{
+    border: 1px solid white;
+}
+.signIn{
+    padding: 7px 10px;
+    background-color:  #c68918;
+    border: 1px solid #c68918 ;
+    border-radius: 2px;
+    color: wheat;
+    font-weight: 600;
+}
+.signIn:hover{
+    background-color: #c68918d0;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    .glass{
+        height: 40px;
+        width: 60px;
+        display: flex;
+        background-color:#c68918;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius:10px ;
+        border: 1px solid transparent;
+    }
+    input{
+        height: 20px;
+        width: 220px;
+        padding: 10px 200px 10px 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: medium;
+        font-weight: 500;
+        border: 1px solid transparent;
+    }
+}
+
+.main_1{
+    height: 400px;
+    width: 950px;
+    margin: auto;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    .heading{
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: xx-large;
+    }
+    .trip{
+        display: flex;
+        gap: 40px;
+        margin-top: 10px;
+        .trip_1:hover {
+            scale: 1.05;
+            box-shadow: 5px 5px 6px 2px #1a120bf6;
+        }
+        .trip_1{
+            height: 200px;
+            width: 210px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            overflow: hidden;
+            text-decoration: none;
+        }
+        .trip_1:hover{
+            text-decoration: underline;
+            color: white;
+            scale: 1.05;
+            box-shadow: 5px 5px 6px 2px #1a120bf6;
+        }
+        .cover{
+            position: absolute;
+            background-color: black;
+            opacity: 0.60;
+            height: 100%;
+            width: 100%;
+        }
+        .tt_1{
+            height: 100%;
+            width: 100%;
+            position: relative;
+            background-image: url("pictures/trips/trips_price/mussoorie_rishikesh.png");
+            background-position: center;
+            background-size: cover;
+        }
+        .b_1 {
+            position: relative;
+            color: white;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+
+            p {
+                font-size: large;
+                font-weight: bold;
+                padding: 7px;
+            }
+        }
+        .tt_2{
+            height: 100%;
+            width: 100%;
+            position: relative;
+            background-image: url("pictures/trips/trips_price/jodhpur.png");
+            background-position: center;
+            background-size: cover;
+        }
+        .tt_3{
+            height: 100%;
+            width: 100%;
+            position: relative;
+            background-image: url("pictures/trips/trips_price/manali.png");
+            background-position: center;
+            background-size: cover;
+        }
+    }
+    .soon{
+        font-size: large;
+        font-weight: bold;
+    }
+}
+.divider {
+    height: 15px;
+    width: 100%;
+    background-color: #c68918;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main_2{
+    height: 400px;
+    width: 950px;
+    margin: auto;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    .heading{
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: xx-large;
+    }
+    .event{
+        display: flex;
+        gap: 40px;
+        margin-top: 10px;
+        .event_1{
+            height: 200px;
+            width: 210px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            overflow: hidden;
+            text-decoration: none;
+        }
+        .event_1:hover{
+            text-decoration: underline;
+            color: white;
+        }
+        .event_1:hover{
+            text-decoration: underline;
+            color: white;
+            scale: 1.05;
+            box-shadow: 5px 5px 6px 2px #1a120bf6;
+        }
+        .ee_1{
+            height: 100%;
+            width: 100%;
+            position: relative;
+            background-image: url("pictures/events/technovista_2.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+        .b_1 {
+            position: relative;
+            color: white;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+
+            p {
+                font-size: large;
+                font-weight: bold;
+                padding: 7px;
+            }
+        }
+        .cover{
+            position: absolute;
+            background-color: black;
+            opacity: 0.60;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .soon{
+        font-size: large;
+        font-weight: bold;
+    }
+}
+
+
+
+.divider_1{
+    height: 15px;
+    width: 100%;
+    background-color: #c68918;
+    margin-top: 30px;
+}
+
+footer{
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(180deg , #1a120bf6,#c68918,#1a120bf6);
+    .conclusion{
+        display: flex;
+        gap: 100px;
+        width: 700px;
+        margin:auto;
+        color: white;
+        padding: 70px;
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            a{
+                color: wheat;
+                font-size: medium;
+                text-decoration: none;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.foot{
+    height: 50px;
+    width: 100%;
+    background-color: #1a120bf6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid wheat;
+    p{
+        color: wheat;
+        font-size: x-small;
+    }
+}
+.main_5{
+    background-color: rgb(222, 190, 131);
+    display: flex;
+    padding: 25px;
+    .calender{
+        height: 400px;
+        width:1200px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        .cal{
+            height: 200px;
+            width: 400px;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .headings{
+            color: black;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .head_1{
+                font-size: xxx-large;
+                font-weight: bolder;
+            }
+            .head_2{
+                font-size: x-large;
+                font-weight: bold;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: medium;
+                font-weight: light;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
