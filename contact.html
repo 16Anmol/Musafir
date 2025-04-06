@@ -13,7 +13,7 @@
 
 <body>
     <nav>
-        <div class="logo"></div>
+        <a href="index.html" class="logo"></a>
         <div class="side">
             <div class="home">
                 <i class="fa-solid fa-house" style="color: wheat; "></i>
@@ -34,28 +34,34 @@
             <h5>Links</h5>
             <div class="contact_details">
                 <div class="container">
-                    <img src="vecteezy_instagram-logo-icon-transparent-background_45934243.png">
+                    <img src="pictures/logo/instagram_logo.png">
                 </div>
                 <a href="https://www.instagram.com/thetriptales.in" target="_main_">Follow us on instagram</a>
             </div>
             <div class="contact_details">
                 <div class="container">
-                    <img src="vecteezy_facebook-png-icon_16716481.png">
+                    <img src="pictures/logo/facebook_logo.png">
                 </div>
                 <a href="https://www.facebook.com/royalroutes.in/?paipv=0&eav=AfZE6TWKeEiX38VEgE4t7KW-eMKFUgMT6gQShl_PBQ45bjeerV2G8Tq1IfDA9X_lj_k&_rdr" target="_main_">Follow us on facebook</a>
             </div>
             <div class="contact_details">
                 <div class="container">
-                    <img src="vecteezy_whatsapp-png-icon_16716468.png">
+                    <img src="pictures/logo/whatsapp_logo.png">
                 </div>
                 <a href="https://chat.whatsapp.com/I7TXZAGGQP2INcOoB0QWJG" target="_main_">Follow us on whatsapp</a>
             </div>
         </div>
         <div class="chat">
             <h5>Chat with Us</h5>
-            <button onclick="location.href='chatBot.html'">Click me</button>
+            <button onclick="openNewTab()">Chat 💬</button>
+            <script>
+                function openNewTab(){
+                    window.open("chatBot.html","_blank");
+                }
+            </script>
         </div>
     </div>
+    <div class="divider"></div>
     <footer>
         <div class="conclusion">
             <button class="start" onclick="location.href='trips.html'">
@@ -70,6 +76,9 @@
             </ul>
         </div>
     </footer>
+    <div class="foot">
+        <p>© 2024, Musafir.com, Inc. or its affiliates</p>
+    </div>
 </body>
 
 </html>

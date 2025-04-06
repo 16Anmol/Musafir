@@ -18,12 +18,12 @@ nav{
 .logo{
     height: 60px;
     width: 115px;
-    background-image: url("Screenshot\ 2024-08-31\ 131448.png");
+    background-image: url("pictures/logo/musafir_logo.png");
     background-size: cover;
 }
 .img_1{
     position: relative;
-    background-image: url("luca-bravo-nhhFz7ITTFw-unsplash_11zon.jpg");
+    background-image: url("pictures/SignIn_SignUp/SignUp/SignUp_bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -183,5 +183,19 @@ footer{
         width: 100%;
         font-weight: bold;
         font-size: x-large;
+    }
+}
+
+.foot{
+    height: 50px;
+    width: 100%;
+    background-color: #1a120bf6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid wheat;
+    p{
+        color: wheat;
+        font-size: x-small;
     }
 }

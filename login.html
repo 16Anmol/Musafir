@@ -1,88 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register & Login</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="login.css">
-    <script type="module" src="firebaseauth.js"></script>
+    <title>Musafir</title>
 </head>
-
 <body>
-    <div class="container" id="signup" style="display:none;">
-        <h1 class="form-title">Register</h1>
-        <form method="post" action="">
-            <div id="signUpMessage" class="messageDiv" style="display:none;"></div>
-            <div class="input-group">
-                <i class="fas fa-user"></i>
-                <input type="text" id="fName" placeholder="First Name" required>
-                <label for="fname">First Name</label>
+    <nav>
+        <a href="index.html" class ="logo"></a>
+        <div class="side">
+            <div class="home">
+                <i class="fa-solid fa-house" style="color: wheat; "></i>
+                <a href="index.html">Home</a>
             </div>
-            <div class="input-group">
-                <i class="fas fa-user"></i>
-                <input type="text" id="lName" placeholder="Last Name" required>
-                <label for="lName">Last Name</label>
-            </div>
-            <div class="input-group">
-                <i class="fas fa-envelope"></i>
-                <input type="email" id="rEmail" placeholder="Email" required>
-                <label for="rEmail">Email</label>
-            </div>
-            <div class="input-group">
-                <i class="fas fa-lock"></i>
-                <input type="password" id="rPassword" placeholder="Password" required>
-                <label for="rPassword">Password</label>
-            </div>
-            <button class="btn" id="submitSignUp">Sign Up</button>
-        </form>
-        <p class="or">
-            ----------or--------
-        </p>
-        <div class="icons">
-            <i class="fab fa-google"></i>
-            <i class="fab fa-facebook"></i>
+            <a class="about" href="about.html">About</a>
+            <a class="about" href="contact.html">Contact</a>
         </div>
-        <div class="links">
-            <p>Already Have Account ?</p>
-            <button id="signInButton">Sign In</button>
-        </div>
-    </div>
-
-    <div class="container" id="signIn">
-        <h1 class="form-title">Sign In</h1>
-        <form method="post" action="">
-            <div id="signInMessage" class="messageDiv" style="display:none;"></div>
-
-            <div class="input-group">
-                <i class="fas fa-envelope"></i>
-                <input type="email" id="email" placeholder="Email" required>
-                <label for="email">Email</label>
+    </nav>
+    <div class="img_1">
+        <div class="cover"></div>
+        <div class="box_1">
+            <div class="client_login">
+                <div class="cover_1"></div>
+                <div class="login_txt">
+                    <h1>User Login</h1>
+                    <div class="user">
+                        <input placeholder="Username" type="text">
+                        <input placeholder="Password" type="password">
+                    </div>
+                    <button onclick="openNewTab()" class="sign_btn">SignIn</button>
+                    <script>
+                        function openNewTab(){
+                            window.open("https:/loginpage-sigma-three.vercel.app/index.html","_blank");
+                        }
+                    </script>
+                    <div class="regi">
+                        <p>Don't have an account?</p>
+                        <a href="form.html">Register</a>
+                    </div>
+                </div>
             </div>
-            <div class="input-group">
-                <i class="fas fa-lock"></i>
-                <input type="password" id="password" placeholder="Password" required>
-                <label for="password">Password</label>
+            <div class="owner_login">
+                <div class="cover_1"></div>
+                <div class="login_txt">
+                    <h1>Organizer Login</h1>
+                    <div class="user">
+                        <input placeholder="Username" type="text">
+                        <input placeholder="Password" type="password">
+                    </div>
+                    <button onclick="location.href='index.html'" class="sign_btn">SignIn</button>
+                    <div class="regi">
+                        <p>Don't have an account?</p>
+                        <a href="form.html">Register</a>
+                    </div>
+                </div>
             </div>
-            <p class="recover">
-                <a href="#">Recover Password</a>
-            </p>
-            <button class="btn" id="submitSignIn">Sign In</button>
-        </form>
-        <p class="or">
-            ----------or--------
-        </p>
-        <div class="icons">
-            <i class="fab fa-google"></i>
-            <i class="fab fa-facebook"></i>
-        </div>
-        <div class="links">
-            <p>Don't have account yet?</p>
-            <button id="signUpButton">Sign Up</button>
         </div>
     </div>
-    <script src="login.js"></script>
+    <div class="divider"></div>
+    <footer>
+        <div class="conclusion">
+            <button class="start" onclick="location.href='trips.html'">
+                <div class="start_text">Explore</div>
+                <div class="emoji"> ✈︎</div>
+            </button>
+            <ul>
+                <a href="about.html">About Us</a>
+                <a href="about.html">Privacy</a>
+                <a href="about.html">Cookie Preferences</a>
+                <a href="about.html">Corporate Information</a>
+            </ul>
+        </div>
+    </footer>
+    <div class="foot">
+        <p>© 2024, Musafir.com, Inc. or its affiliates</p>
+    </div>
 </body>
-
 </html>
