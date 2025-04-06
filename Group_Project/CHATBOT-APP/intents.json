@@ -1,0 +1,39 @@
+{"intents":  [
+  {"tag":  "greetings",
+  "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up ? ", "how is it going",  "How’s it going?", "or bhai","What’s happening?", "What’s the story?", "Yo!","It’s good to see you","G’day!"," What’s new?","Morning!"],
+  "responses": ["HELLO!", "HEY!", "WHAT CAN I DO FOR YOU ?", "TELL ME SOMETHING TO DO!", "Good to see you again", "Hi there, how can I help?"]
+  },
+  {"tag": "goodbye",
+  "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+  "responses": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"]
+  },
+  {"tag": "age" ,
+  "patterns": ["How old", "What is your age", "How old are you ?", "age ?"],
+  "responses": ["19 Years !", "My age is 19 how about yours ?"]
+  },
+  {"tag":  "name",
+  "patterns": ["what is your name ?" , "what should i call you ?", "whats your name ?" , "who are you?","Can you tell me who you're"],
+  "responses": ["You can call me JARVIS2.0","I'm JARVIS", "I'm JARVIS A.I"]
+  },
+  {"tag": "thanks",
+  "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome", "thanks", "Thanks for helping me"],
+  "responses": ["My pleasure" , "You're welcome"]
+  },
+  {"tag": "hours" ,
+  "patterns": ["How many you hours you are here ?", "How many hours you are online? "],
+  "responses": ["24*7"]
+  },
+  {"tag": "query",
+  "patterns": ["What is JARVIS2.0 ?"],
+  "responses": ["JARVIS2.0 is A.I which can do anything just using your voice command..."]
+  },
+  {"tag": "noanswer",
+  "patterns": [],
+  "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+  {"tag": "images" ,
+  "patterns": ["Open images", " give me some images ", "show some images"],
+  "responses": ["IMAGES ARE UNAVIABLE AT THIS TIME...SORRY FOR THIS INCONVENIENCE...ERROR 404 !"]
+  }
+]}
+
