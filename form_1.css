@@ -14,64 +14,32 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content:space-between;
-    .home{
-        padding: 7px;
-        border-radius: 7px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 4px;
-        a{
-            color: wheat;
-            font-size: large;
-            font-weight: 500;
-            text-decoration: none;
-        }
-    } 
 }
 .logo{
     height: 60px;
     width: 115px;
     background-image: url("pictures/logo/musafir_logo.png");
     background-size: cover;
-    margin-left: 70px;
-}
-.home:hover{
-    border:1px solid white;
-}
-.side{
-    margin-right: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-}
-.about{
-    font-size: large;
-    font-weight: 500;
-    color: wheat;
-    text-decoration: none;
-    padding: 7px;
-    border-radius: 7px;
-}
-.about:hover{
-    border: 1px solid white;
-}
-.signIn{
-    padding: 7px 10px;
-    background-color:  #c68918;
-    border: 1px solid transparent ;
-    border-radius: 2px;
-    color: wheat;
-    font-weight: 600;
-}
-.signIn:hover{
-    background-color: #c68918d0;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+.divider{
+    height: 15px;
+    width: 100%;
+    background-color: #c68918;
+}
 footer{
     height: 300px;
     width: 100%;
@@ -127,7 +95,7 @@ footer{
     }
 }
 .start:hover{
-    .start_text{
+    .start_text{ 
         display: none;
     }
     .emoji{
@@ -138,7 +106,6 @@ footer{
         font-size: x-large;
     }
 }
-
 .foot{
     height: 50px;
     width: 100%;
@@ -150,52 +117,5 @@ footer{
     p{
         color: wheat;
         font-size: x-small;
-    }
-}
-.divider {
-    height: 15px;
-    width: 100%;
-    background-color: #c68918;
-}
-.main_1{
-    width: 1000px;
-    height: 600px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    color: black;
-    align-items: center;
-    gap: 50px;
-    h1{
-        margin-top: 30px;
-        font-size: xxx-large;
-    }
-    p{
-        font-size: larger;
-    }
-    .contact_details{
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        .container{
-            height: 40px;
-            width: 40px;
-            border: 1px solid transparent;
-            border-radius: 2px;
-            img{
-                height: 100%;
-                width: 100%;
-            }
-        }
-        a{
-            font-size: smaller;
-            font-weight: light;
-            color: #E1306C;
-            text-decoration: none;
-            font-size: medium;
-        }
-        a:hover{
-            text-decoration: underline;
-        }
     }
 }
